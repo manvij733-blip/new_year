@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: cursive;
+  background: linear-gradient(#dff1ff, #ffe4f0);
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.section {
+  display: none;
+  padding: 40px;
+  min-height: 100vh;
+}
+
+.section.active {
+  display: block;
+}
+
+button {
+  padding: 12px 25px;
+  border-radius: 20px;
+  border: none;
+  background: pink;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.img {
+  width: 250px;
+  border-radius: 20px;
+  margin: 20px 0;
+}
+
+.card {
+  background: pink;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 15px;
+  cursor: pointer;
+}
